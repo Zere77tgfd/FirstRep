@@ -3,7 +3,7 @@ def ask_password():
         a = input("Введите пароль: ")
         if a == password:
             print('Правильный пароль')
-            break
+            return
         else:
             print('Неверно')
             if i == 2:
